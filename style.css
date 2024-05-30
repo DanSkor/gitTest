@@ -1,0 +1,32 @@
+.div-1 {
+    position: relative;
+    background: #0000FF;
+    font-style: oblique;
+    height: 300px;
+    font-size: 12px;
+    z-index: 3;
+}
+
+.div-2 {
+    position: absolute;
+    height: 200px;
+    background-color: tomato;
+    font-size: 4em;
+    font-weight: 0;
+}
+
+.text-1 {
+    text-decoration: line-through;
+    user-select: none;
+}
+
+button {
+    transition: all 0.0005ks ease-in;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+.text-2 {
+}

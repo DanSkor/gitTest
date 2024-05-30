@@ -1,0 +1,65 @@
+.wrapper {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(88,88,91,0.9220063025210083) 87%, rgba(77,81,81,1) 100%);
+}
+
+.screen {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.buttons-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 15px;
+
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.signs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.numbers button,
+.signs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.numbers button:hover,
+.signs button:hover {
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+.numbers button:active,
+.signs button:active {
+    opacity: 0.4;
+    transition: all 0.2s ease;
+}
+
+.signs button {
+    background-color: #58c6f4;
+}
+
+.result-btn {
+    grid-row: 2/5;
+    grid-column: 2/3;
+}

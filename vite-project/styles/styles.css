@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #fffdf8;
+}
